@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Registro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="public/css/style.css" />
 </head>
 <body>
-    
+    <div class="register">
+        <h1>Registro de usuarios</h1>
+        <img src="public/img/user.png">
+        <form action="url" method="get">
+            <fieldset>
+                <legend>Información personal</legend>
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name">
+                <label for="date">Date of birth: </label>
+                <input type="date" id="date">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Usuario</legend>
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
