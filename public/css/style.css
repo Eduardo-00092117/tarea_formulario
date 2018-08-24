@@ -1,17 +1,19 @@
 div{
     padding: 20px;
-    width: 75%;
+    width: 85%;
     height: 75%;
     margin:30px auto;
     display:block;
+    background: rgb(126, 77, 42);
+    -webkit-box-shadow: 10px 10px 5px 0px;
 }
 
 h1{
     text-align: center;
 }
 
-.register{
-    background: teal;
+h1, fieldset{
+    color: white;
 }
 
 img{
@@ -22,5 +24,11 @@ img{
 }
 
 fieldset{
+    padding: 20px;
+}
+
+#boton{
+    margin:20px auto;
+    display:block;
     padding: 20px;
 }
